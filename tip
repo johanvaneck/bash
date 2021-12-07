@@ -1,6 +1,8 @@
+# This script saves usefull commands to remember in the specified file
+
 #!/bin/zsh
 
-file=$HOME/.bin_files/commands.txt
+file=$HOME/files/tips.txt
 
 if [ $# -eq 0 ]
 then 
@@ -11,4 +13,8 @@ else
 	echo "# $description" >> $file
 	echo "$@" >> $file
 	echo >> $file
+	
+	git add $file
+	git commit -m 'automatic update'
+	git push -u origin main
 fi
