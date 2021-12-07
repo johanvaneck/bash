@@ -1,9 +1,0 @@
-# change device prompt name in terminal
-sudo scutil --set HostName enternamehere
-
-# generate a ssh key
-ssh-keygen
-
-# hierdie is die beskrywing
-hierdie is die command
-
