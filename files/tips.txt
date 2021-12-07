@@ -10,9 +10,3 @@ hierdie is die command
 # adds new files to repo
 git add *
 
-# adds new files to repo
-git add *
-
-# adds new files to repo
-git add *
-
