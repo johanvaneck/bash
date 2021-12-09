@@ -4,9 +4,9 @@ sudo scutil --set HostName enternamehere
 # generate a ssh key
 ssh-keygen
 
-# hierdie is die beskrywing
-hierdie is die command
-
 # adds new files to repo
 git add *
+
+# Create a new Azure Edge SQL Server in a docker container
+sudo docker run --cap-add SYS_PTRACE -e ACCEPT_EULA=1 -e MSSQL_SA_PASSWORD=ENTER_PASSWORD_HERE -p 1433:1433 --name ENTER_NAME_HERE -d mcr.microsoft.com/azure-sql-edge
 
