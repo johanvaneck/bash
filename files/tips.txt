@@ -10,3 +10,6 @@ git add *
 # Create a new Azure Edge SQL Server in a docker container
 sudo docker run --cap-add SYS_PTRACE -e ACCEPT_EULA=1 -e MSSQL_SA_PASSWORD=ENTER_PASSWORD_HERE -p 1433:1433 --name ENTER_NAME_HERE -d mcr.microsoft.com/azure-sql-edge
 
+# Pull the Azure SQL Edge image
+docker pull mcr.microsoft.com/azure-sql-edge
+
