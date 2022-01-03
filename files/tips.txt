@@ -13,3 +13,7 @@ sudo docker run --cap-add SYS_PTRACE -e ACCEPT_EULA=1 -e MSSQL_SA_PASSWORD=ENTER
 # Pull the Azure SQL Edge image
 docker pull mcr.microsoft.com/azure-sql-edge
 
+# Start a new React project
+npx create-react-app my-app
+ && cd my-app && npm start
+
